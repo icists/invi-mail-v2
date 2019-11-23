@@ -32,22 +32,22 @@ $ pip install -r requirements.txt
 sheet_credentials.json
 gmail_credentials.json
 ```
-```bash sheet_credentials.json```은 Google Sheet API와,
-```bash gmail_credentials.json```은 Gmail API와 연동하는 credentials입니다.
+```sheet_credentials.json```은 Google Sheet API와,
+```gmail_credentials.json```은 Gmail API와 연동하는 credentials입니다.
 Google에서 credentials를 생성하고 이름을 위와 같이 바꾸세요.
 
-```bash mail.py```에서 다음 두 변수를 설정하세요.
+```mail.py```에서 다음 두 변수를 설정하세요.
 ```python
 spreadsheet_url = 'your_spreadsheet_url'
 DEBUG = False
 ```
 
-```bash sheet_credentials.json```에서 ```"client_email"```에 해당하는 값을 복사하세요.
+```sheet_credentials.json```에서 ```"client_email"```에 해당하는 값을 복사하세요.
 연동할 스프레드시트에서 해당 이메일로 공유하세요.
 
 #### 실행
 다음 명령어로 실행할 수 있습니다.
-```$ bash python mail.py```
+```$ python mail.py```
 
 이후 다시 실행하기 위해서는 가상환경에 진입해야 합니다.
 ```bash
