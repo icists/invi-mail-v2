@@ -42,7 +42,7 @@ spreadsheet_url = 'your_spreadsheet_url'
 DEBUG = False
 ```
 
-```bash sheet_credentials.json```에서 ```json "client_email"```에 해당하는 값을 복사하세요.
+```bash sheet_credentials.json```에서 ```"client_email"```에 해당하는 값을 복사하세요.
 연동할 스프레드시트에서 해당 이메일로 공유하세요.
 
 #### 실행
