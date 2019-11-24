@@ -2,6 +2,7 @@
 Google 스프레드시트와 Gmail과 연동한 자동 메일 매크로
 
 ### 사용법
+Windows CMD 환경 기준으로 작성되었습니다.
 
 #### 설치
 우선 이 저장소를 clone하세요.
@@ -16,13 +17,11 @@ $ cd invi-mail-v2
 가상환경을 실행하세요.
 ```bash
 $ python -m venv .
-$ cd Scripts
-$ activate.bat
+$ Scripts\activate.bat
 ```
 
 이제 패키지를 설치합니다.
 ```bash
-$ cd ..
 $ pip install -r requirements.txt
 ```
 
@@ -51,8 +50,6 @@ DEBUG = False
 
 이후 다시 실행하기 위해서는 가상환경에 진입해야 합니다.
 ```bash
-$ cd Scripts
-$ activate.bat
-$ cd ..
+$ Scripts\activate.bat
 $ python mail.py
 ```
